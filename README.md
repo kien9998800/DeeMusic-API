@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🎧 DeeMusic
+# 🎧 DeeMusic API
 
 **FastAPI Gateway & Music Engine powered by Deezer, YouTube Music, and LRCLIB**
 
@@ -16,7 +16,7 @@
 
 ## 📌 Overview
 
-**DeeMusic** is a hybrid music engine designed to bridge metadata retrieval and audio streaming seamlessness:
+**DeeMusic API** is a hybrid music engine designed to bridge metadata retrieval and audio streaming seamlessly:
 
 > *This API allows you to retrieve information—such as artists, playlists, radio stations, tracks, and albums—from Deezer and then use the YT Music API for streaming and downloading. It also includes functionality to fetch lyrics from the lrclib API.*
 
@@ -50,7 +50,7 @@ Additionally, the project features a **CustomTkinter GUI Desktop Application** w
 Clone the repository and install the dependencies:
 
 ```bash
-git clone [https://github.com/YOUR_USERNAME/deemusic.git](https://github.com/YOUR_USERNAME/deemusic.git)
-cd deemusic
+git clone [https://github.com/kien9998800/DeeMusic-API.git](https://github.com/kien9998800/DeeMusic-API.git)
+cd DeeMusic-API
 
 pip install -r requirements.txt

@@ -2,6 +2,26 @@
 
 # 🎧 DeeMusic API
 
+<table align="center" border="0" style="border: none; background: transparent;">
+  <tr style="border: none; background: transparent;">
+    <td align="center" valign="middle" style="border: none; padding: 0 12px;">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Deezer_logo%2C_2023.svg/3840px-Deezer_logo%2C_2023.svg.png" height="32" alt="Deezer" />
+    </td>
+    <td align="center" valign="middle" style="border: none; padding: 0 6px; font-size: 18px; font-weight: bold;">
+      X
+    </td>
+    <td align="center" valign="middle" style="border: none; padding: 0 12px;">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/1/1c/YouTube_Music_2024.svg" height="36" alt="YouTube Music" />
+    </td>
+    <td align="center" valign="middle" style="border: none; padding: 0 6px; font-size: 18px; font-weight: bold;">
+      X
+    </td>
+    <td align="center" valign="middle" style="border: none; padding: 0 12px;">
+      <img src="https://lrclib.net/assets/lrclib-370c57eb.png" height="42" alt="LRCLIB" />
+    </td>
+  </tr>
+</table>
+
 **FastAPI Gateway & Music Engine powered by Deezer, YouTube Music, and LRCLIB**
 
 [![Python Version](https://img.shields.io/badge/python-3.9%2B-blue.svg)](https://www.python.org/)
@@ -34,12 +54,14 @@ Additionally, the project features a **CustomTkinter GUI Desktop Application** w
 
 ---
 
-## 🛠️ Architecture & Tech Stack
+## 🛠️ Integrated Platforms & Tech Stack
 
-- **Backend:** FastAPI, Uvicorn, Requests
-- **Audio Engine:** `ytmusicapi`, `yt-dlp`, `python-vlc`
-- **Metadata Tags:** `mutagen`
-- **Frontend GUI:** `customtkinter`, `Pillow (PIL)`
+| Platform / Tool | Role in DeeMusic |
+| :---: | :--- |
+| <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Deezer_logo%2C_2023.svg/3840px-Deezer_logo%2C_2023.svg.png" width="110" /> | **Metadata Provider** (Search, Track Info, Albums, Playlists) |
+| <img src="https://upload.wikimedia.org/wikipedia/commons/1/1c/YouTube_Music_2024.svg" width="130" /> | **Audio Engine** (Direct Audio Streaming & MP3 Download) |
+| <img src="https://lrclib.net/assets/lrclib-370c57eb.png" width="80" /> | **Lyrics Engine** (Plain & Synced Lrc Lyrics) |
+| **FastAPI / Python** | **Core Backend Gateway & GUI Engine** |
 
 ---
 

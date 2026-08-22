@@ -8,13 +8,13 @@
       <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Deezer_logo%2C_2023.svg/3840px-Deezer_logo%2C_2023.svg.png" height="32" alt="Deezer" />
     </td>
     <td align="center" valign="middle" style="border: none; padding: 0 6px; font-size: 18px; font-weight: bold;">
-      X
+      ✖
     </td>
     <td align="center" valign="middle" style="border: none; padding: 0 12px;">
       <img src="https://upload.wikimedia.org/wikipedia/commons/1/1c/YouTube_Music_2024.svg" height="36" alt="YouTube Music" />
     </td>
     <td align="center" valign="middle" style="border: none; padding: 0 6px; font-size: 18px; font-weight: bold;">
-      X
+      ✖
     </td>
     <td align="center" valign="middle" style="border: none; padding: 0 12px;">
       <img src="https://lrclib.net/assets/lrclib-370c57eb.png" height="42" alt="LRCLIB" />
@@ -33,6 +33,11 @@
 ---
 
 </div>
+
+> ⚠️ **Notice / Work in Progress:**  
+> This project is currently under active development. Some features may be unstable, updated frequently, or produce unexpected bugs/errors. Feel free to open an issue if you encounter any problems!
+
+---
 
 ## 📌 Overview
 

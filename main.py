@@ -8,7 +8,6 @@ from ytmusicapi import YTMusic
 import yt_dlp
 from mutagen.id3 import ID3, APIC, TIT2, TPE1, TALB, ID3NoHeaderError
 
-# Tắt OpenAPI Schema và toàn bộ trang Docs UI
 app = FastAPI(
     docs_url=None,
     redoc_url=None,
